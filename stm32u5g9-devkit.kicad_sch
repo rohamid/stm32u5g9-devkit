@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "51b81e84-43c5-41b1-a9e5-678506f2d81f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 158.75 92.71)
+		(size 39.37 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee8e74de-5e84-4566-a5cc-7222f171bd08")
+		(property "Sheetname" "MCU"
+			(at 158.75 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32U5G9ZJT6.kicad_sch"
+			(at 158.75 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32u5g9-devkit"
+				(path "/51b81e84-43c5-41b1-a9e5-678506f2d81f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
