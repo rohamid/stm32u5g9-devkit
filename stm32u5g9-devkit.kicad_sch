@@ -6,7 +6,171 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 158.75 92.71)
+		(at 76.708 63.754)
+		(size 35.052 19.558)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5403b612-389a-44ba-91f7-9599b84bb494")
+		(property "Sheetname" "MEMORY"
+			(at 76.708 63.0424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MX66LM1G45.kicad_sch"
+			(at 76.708 83.8966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIO[0..7]" input
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4dd4df6f-c21b-4d19-8358-ede7a410cb30")
+		)
+		(pin "SCLK" input
+			(at 111.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10732955-ee3f-4138-b85f-3d052c1bbbf6")
+		)
+		(pin "DQS" output
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6da727d-1864-404b-a51c-1a35878964e9")
+		)
+		(pin "~{CS}" input
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24ff6700-165a-412d-b553-f6e8ee04d18d")
+		)
+		(pin "~{RESET}" input
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9133c929-61ec-40a4-be1d-1b3e39a2d5f4")
+		)
+		(instances
+			(project "stm32u5g9-devkit"
+				(path "/51b81e84-43c5-41b1-a9e5-678506f2d81f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 63.246)
+		(size 33.528 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7cb73551-083c-42ce-bbc9-9d5fde430653")
+		(property "Sheetname" "DISPLAY-MIPI"
+			(at 165.1 62.5344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mipi-based-display.kicad_sch"
+			(at 165.1 91.7706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32u5g9-devkit"
+				(path "/51b81e84-43c5-41b1-a9e5-678506f2d81f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 99.06)
+		(size 34.036 31.242)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6c0dce2-18f1-40bd-af1e-d834efa1f0a0")
+		(property "Sheetname" "DISPLAY-RGB"
+			(at 165.1 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rgb-based-display.kicad_sch"
+			(at 165.1 130.8866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32u5g9-devkit"
+				(path "/51b81e84-43c5-41b1-a9e5-678506f2d81f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 63.754)
 		(size 39.37 39.37)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +182,7 @@
 		)
 		(uuid "ee8e74de-5e84-4566-a5cc-7222f171bd08")
 		(property "Sheetname" "MCU"
-			(at 158.75 91.9984 0)
+			(at 118.11 63.0424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +191,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32U5G9ZJT6.kicad_sch"
-			(at 158.75 132.6646 0)
+			(at 118.11 103.7086 0)
 			(effects
 				(font
 					(size 1.27 1.27)

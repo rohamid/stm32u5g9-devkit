@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Memory_NOR_FLASH")(type "KiCad")(uri "C:/Users/roham/Documents/kicad_workspace/lib/kicad_custom_libraries/Memory_NOR_FLASH/Memory_NOR_FLASH.kicad_sym")(options "")(descr ""))
+)
